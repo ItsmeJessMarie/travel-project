@@ -71,7 +71,7 @@ header a:hover {
 
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/tokyo-skyline-night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
