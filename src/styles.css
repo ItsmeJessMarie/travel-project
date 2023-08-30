@@ -42,6 +42,10 @@ body {
   aspect-ratio: 1 / 1;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 .card {
   background: rgba(245, 237, 237);
   color: black;
@@ -287,12 +291,21 @@ footer a {
     margin: 0 auto;
   }
 
+  .btn {
+    font-size: 12px;
+  }
+
   section {
     margin: 0 auto;
   }
 
-  section.secondary {
+  section.secondary,
+  section.tertiary {
     padding: 20px;
+  }
+
+  section.tertiary .grid-3-columns {
+    grid-gap: 15px;
   }
 
   header {
